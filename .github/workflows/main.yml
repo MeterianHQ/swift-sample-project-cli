@@ -15,12 +15,7 @@ jobs:
             with:
                 java-version: '11'
                 distribution: 'adopt'
-                
-          - name: Setup cocoapods
-            uses: maxim-lobanov/setup-cocoapods@v1
-            with:
-                version: 1.9.0
-        
+                        
           - name: Download the Meterian Thin CLient
             run: wget -N https://www.meterian.io/downloads/meterian-cli.jar
             
